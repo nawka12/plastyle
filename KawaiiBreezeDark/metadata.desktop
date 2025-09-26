@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=KawaiiBreezeDark
+Name[en_US]=KawaiiBreezeDark
+Comment=A dark anime-inspired theme with neon effects and cyberpunk aesthetics
+Comment[en_US]=A dark anime-inspired theme with neon effects and cyberpunk aesthetics
+
+X-KDE-PluginInfo-Author=nawka12
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=KawaiiBreezeDark
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+
+[ContainmentActions][RightButton;NoModifier]
+_add panel=true
+_context menu=true
+_run command=true
+_wallpaper=true
+
+[Wallpaper][org.kde.image][General]
+Image= 

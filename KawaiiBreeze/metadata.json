@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "nawka12"
+            }
+        ],
+        "BugReportUrl": "",
+        "Category": "Plasma Theme",
+        "Description": "An anime-inspired theme based on Breeze with vibrant colors and soft aesthetics",
+        "EnabledByDefault": true,
+        "Id": "KawaiiBreeze",
+        "License": "GPL",
+        "Name": "KawaiiBreeze",
+        "ServiceTypes": [
+            "Plasma/Theme"
+        ],
+        "Version": "1.0",
+        "Website": ""
+    }
+}

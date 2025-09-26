@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg600"
+   viewBox="0 0 288 224"
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs354">
+    
+    <!-- Dark Anime-style color scheme -->
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Highlight { color:#ff66ff; stop-color:#ff66ff; }
+      .ColorScheme-ButtonText { color:#dcc8ff; stop-color:#dcc8ff; }
+      .ColorScheme-ButtonBackground { color:#1e0e23; stop-color:#1e0e23; }
+      .ColorScheme-ButtonHover { color:#ff80ff; stop-color:#ff80ff; }
+      .ColorScheme-ButtonFocus { color:#80ffff; stop-color:#80ffff; }
+    </style>
+    
+    <!-- Dark Cyberpunk gradient definitions -->
+    <linearGradient id="dark-button-normal-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1a40;stop-opacity:0.98" />
+      <stop offset="30%" style="stop-color:#221530;stop-opacity:0.95" />
+      <stop offset="70%" style="stop-color:#1a0f25;stop-opacity:0.92" />
+      <stop offset="100%" style="stop-color:#150c1f;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="dark-button-hover-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4d1f66;stop-opacity:0.98" />
+      <stop offset="30%" style="stop-color:#3d1952;stop-opacity:0.95" />
+      <stop offset="70%" style="stop-color:#2d1240;stop-opacity:0.92" />
+      <stop offset="100%" style="stop-color:#1f0b2e;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="dark-button-pressed-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0820;stop-opacity:0.95" />
+      <stop offset="50%" style="stop-color:#1a0f2a;stop-opacity:0.92" />
+      <stop offset="100%" style="stop-color:#251238;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <radialGradient id="neon-button-glow" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" style="stop-color:#ff80ff;stop-opacity:0.7" />
+      <stop offset="40%" style="stop-color:#80ffff;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#8080ff;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="cyber-button-glow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#ff66ff;stop-opacity:0.5" />
+      <stop offset="60%" style="stop-color:#66ffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#6666ff;stop-opacity:0" />
+    </radialGradient>
+    
+    <filter id="neon-button-filter" x="-100%" y="-100%" width="300%" height="300%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#ff80ff" flood-opacity="0.6"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#4d1f66" flood-opacity="0.4"/>
+    </filter>
+    
+    <filter id="intense-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#80ffff" flood-opacity="0.8"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#ff66ff" flood-opacity="0.6"/>
+    </filter>
+    
+  </defs>
+
+  <!-- Normal Button State - Dark -->
+  <g id="normal">
+    <!-- Button background with neon glow -->
+    <rect id="normal-center" 
+          x="32" y="32" width="32" height="32" 
+          style="fill:url(#dark-button-normal-gradient);stroke:none;rx:8;ry:8;filter:url(#neon-button-filter)" 
+          class="ColorScheme-ButtonBackground" />
+    
+    <!-- Enhanced glow overlay -->
+    <rect x="32" y="32" width="32" height="32" 
+          style="fill:url(#neon-button-glow);rx:8;ry:8;opacity:0.7" />
+    
+    <!-- Button border sections with neon effects -->
+    <rect id="normal-top" x="32" y="16" width="32" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="normal-bottom" x="32" y="48" width="32" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="normal-left" x="16" y="32" width="16" height="32" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="normal-right" x="48" y="32" width="16" height="32" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    
+    <!-- Corner pieces with glow -->
+    <rect id="normal-topleft" x="16" y="16" width="16" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="normal-topright" x="48" y="16" width="16" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="normal-bottomleft" x="16" y="48" width="16" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="normal-bottomright" x="48" y="48" width="16" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+  </g>
+
+  <!-- Hover Button State - Enhanced Neon -->
+  <g id="hover">
+    <rect id="hover-center" 
+          x="96" y="32" width="32" height="32" 
+          style="fill:url(#dark-button-hover-gradient);stroke:none;rx:8;ry:8;filter:url(#intense-glow)" 
+          class="ColorScheme-ButtonHover" />
+    
+    <!-- Intense hover glow -->
+    <rect x="96" y="32" width="32" height="32" 
+          style="fill:url(#cyber-button-glow);rx:8;ry:8;opacity:0.8" />
+    
+    <rect id="hover-top" x="96" y="16" width="32" height="16" 
+          style="fill:url(#dark-button-hover-gradient);opacity:0.98;rx:8;ry:8" />
+    <rect id="hover-bottom" x="96" y="48" width="32" height="16" 
+          style="fill:url(#dark-button-hover-gradient);opacity:0.98;rx:8;ry:8" />
+    <rect id="hover-left" x="80" y="32" width="16" height="32" 
+          style="fill:url(#dark-button-hover-gradient);opacity:0.98;rx:8;ry:8" />
+    <rect id="hover-right" x="112" y="32" width="16" height="32" 
+          style="fill:url(#dark-button-hover-gradient);opacity:0.98;rx:8;ry:8" />
+    
+    <rect id="hover-topleft" x="80" y="16" width="16" height="16" 
+          style="fill:url(#dark-button-hover-gradient);opacity:0.98;rx:8;ry:8" />
+    <rect id="hover-topright" x="112" y="16" width="16" height="16" 
+          style="fill:url(#dark-button-hover-gradient);opacity:0.98;rx:8;ry:8" />
+    <rect id="hover-bottomleft" x="80" y="48" width="16" height="16" 
+          style="fill:url(#dark-button-hover-gradient);opacity:0.98;rx:8;ry:8" />
+    <rect id="hover-bottomright" x="112" y="48" width="16" height="16" 
+          style="fill:url(#dark-button-hover-gradient);opacity:0.98;rx:8;ry:8" />
+  </g>
+
+  <!-- Pressed Button State - Deep Dark -->
+  <g id="pressed">
+    <rect id="pressed-center" 
+          x="160" y="32" width="32" height="32" 
+          style="fill:url(#dark-button-pressed-gradient);stroke:#80ffff;stroke-width:2;rx:8;ry:8" 
+          class="ColorScheme-ButtonFocus" />
+    
+    <!-- Inset cyber glow for pressed state -->
+    <rect x="162" y="34" width="28" height="28" 
+          style="fill:none;stroke:url(#cyber-button-glow);stroke-width:3;rx:6;ry:6;opacity:0.9" />
+    
+    <rect id="pressed-top" x="160" y="16" width="32" height="16" 
+          style="fill:url(#dark-button-pressed-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="pressed-bottom" x="160" y="48" width="32" height="16" 
+          style="fill:url(#dark-button-pressed-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="pressed-left" x="144" y="32" width="16" height="32" 
+          style="fill:url(#dark-button-pressed-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="pressed-right" x="176" y="32" width="16" height="32" 
+          style="fill:url(#dark-button-pressed-gradient);opacity:0.95;rx:8;ry:8" />
+    
+    <rect id="pressed-topleft" x="144" y="16" width="16" height="16" 
+          style="fill:url(#dark-button-pressed-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="pressed-topright" x="176" y="16" width="16" height="16" 
+          style="fill:url(#dark-button-pressed-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="pressed-bottomleft" x="144" y="48" width="16" height="16" 
+          style="fill:url(#dark-button-pressed-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="pressed-bottomright" x="176" y="48" width="16" height="16" 
+          style="fill:url(#dark-button-pressed-gradient);opacity:0.95;rx:8;ry:8" />
+  </g>
+
+  <!-- Focus Button State - Cyberpunk Outline -->
+  <g id="focus">
+    <rect id="focus-center" 
+          x="224" y="32" width="32" height="32" 
+          style="fill:url(#dark-button-normal-gradient);stroke:#80ffff;stroke-width:3;stroke-dasharray:3,3;rx:8;ry:8;filter:url(#intense-glow)" 
+          class="ColorScheme-ButtonBackground" />
+    
+    <!-- Pulsing focus glow -->
+    <rect x="224" y="32" width="32" height="32" 
+          style="fill:url(#cyber-button-glow);rx:8;ry:8;opacity:0.9" />
+    
+    <rect id="focus-top" x="224" y="16" width="32" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="focus-bottom" x="224" y="48" width="32" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="focus-left" x="208" y="32" width="16" height="32" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="focus-right" x="240" y="32" width="16" height="32" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    
+    <rect id="focus-topleft" x="208" y="16" width="16" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="focus-topright" x="240" y="16" width="16" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="focus-bottomleft" x="208" y="48" width="16" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+    <rect id="focus-bottomright" x="240" y="48" width="16" height="16" 
+          style="fill:url(#dark-button-normal-gradient);opacity:0.95;rx:8;ry:8" />
+  </g>
+
+  <!-- Enhanced Neon Hints for margins -->
+  <rect id="hint-top-margin" x="44" y="8" width="8" height="8" 
+        style="fill:#66ffff;rx:2;filter:url(#neon-button-filter)" />
+  <rect id="hint-bottom-margin" x="44" y="72" width="8" height="8" 
+        style="fill:#66ffff;rx:2;filter:url(#neon-button-filter)" />
+  <rect id="hint-left-margin" x="8" y="44" width="8" height="8" 
+        style="fill:#66ffff;rx:2;filter:url(#neon-button-filter)" />
+  <rect id="hint-right-margin" x="72" y="44" width="8" height="8" 
+        style="fill:#66ffff;rx:2;filter:url(#neon-button-filter)" />
+
+</svg>

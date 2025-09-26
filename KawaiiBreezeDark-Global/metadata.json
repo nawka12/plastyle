@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "nawka12"
+            }
+        ],
+        "BugReportUrl": "",
+        "Category": "Plasma Look And Feel",
+        "Description": "A comprehensive dark anime-inspired global theme with neon effects and cyberpunk aesthetics",
+        "EnabledByDefault": true,
+        "Id": "com.kayfahaarukku.kawaiibreezedarkg",
+        "License": "GPL",
+        "Name": "KawaiiBreezeDark Global",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-MainScript": "defaults"
+} 

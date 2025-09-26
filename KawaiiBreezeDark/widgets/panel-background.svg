@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg2"
+   height="64"
+   viewBox="0 0 157 64"
+   width="157"
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs
+     id="defs15">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+            .ColorScheme-Text {
+                color:#dcc8ff;
+                stop-color:#dcc8ff;
+            }
+            .ColorScheme-Background {
+                color:#1e0e23;
+                stop-color:#1e0e23;
+            }
+        </style>
+    
+    <!-- Dark Anime-style gradients with neon effects -->
+    <linearGradient id="dark-kawaii-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1a40;stop-opacity:0.98" />
+      <stop offset="30%" style="stop-color:#221530;stop-opacity:0.95" />
+      <stop offset="70%" style="stop-color:#1a0f25;stop-opacity:0.92" />
+      <stop offset="100%" style="stop-color:#150c1f;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="neon-shadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4d1f66;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#331a4d;stop-opacity:0.2" />
+    </linearGradient>
+    
+    <radialGradient id="neon-glow" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" style="stop-color:#ff80ff;stop-opacity:0.6" />
+      <stop offset="40%" style="stop-color:#80ffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8080ff;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="cyber-glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#ff66ff;stop-opacity:0.4" />
+      <stop offset="60%" style="stop-color:#66ffff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#6666ff;stop-opacity:0" />
+    </radialGradient>
+    
+    <filter id="neon-filter" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#ff80ff" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#4d1f66" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Center panel with dark anime styling -->
+  <rect
+     style="fill:url(#dark-kawaii-gradient);stroke:url(#neon-shadow);stroke-width:0.5;rx:8;ry:8;filter:url(#neon-filter)"
+     id="thick-center"
+     width="32"
+     height="32"
+     x="19"
+     y="75"
+     class="ColorScheme-Background" />
+
+  <!-- Enhanced margin hints with neon colors -->
+  <rect
+     style="fill:#ff66ff;fill-opacity:1;stroke:none;rx:2;ry:2;filter:url(#neon-filter)"
+     id="thick-hint-right-margin"
+     width="4"
+     height="8"
+     x="52"
+     y="95" />
+  <rect
+     style="fill:#ff66ff;fill-opacity:1;stroke:none;rx:2;ry:2;filter:url(#neon-filter)"
+     id="thick-hint-left-margin"
+     width="4"
+     height="8"
+     x="12"
+     y="95" />
+  <rect
+     style="fill:#ff66ff;fill-opacity:1;stroke:none;rx:2;ry:2;filter:url(#neon-filter)"
+     id="thick-hint-top-margin"
+     width="4"
+     height="8"
+     x="38"
+     y="69" />
+  <rect
+     style="fill:#ff66ff;fill-opacity:1;stroke:none;rx:2;ry:2;filter:url(#neon-filter)"
+     id="thick-hint-bottom-margin"
+     width="4"
+     height="8"
+     x="39"
+     y="105" />
+
+  <!-- Tile center hint -->
+  <rect
+     id="hint-tile-center"
+     height="5"
+     style="fill:#66ffff"
+     width="5"
+     x="0"
+     y="0" />
+
+  <!-- Panel sections with dark anime styling -->
+  <g id="top" transform="translate(6,10)">
+    <rect
+       height="6"
+       style="fill:url(#dark-kawaii-gradient);opacity:0.95;rx:3;ry:3"
+       class="ColorScheme-Background"
+       width="32"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:url(#neon-glow);opacity:0.4"
+       height="2"
+       width="32"
+       x="0"
+       y="0" />
+  </g>
+
+  <g id="bottom" transform="translate(6,48)">
+    <rect
+       height="6"
+       style="fill:url(#dark-kawaii-gradient);opacity:0.95;rx:3;ry:3"
+       class="ColorScheme-Background"
+       width="32"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:url(#neon-shadow);opacity:0.4"
+       height="2"
+       width="32"
+       x="0"
+       y="4" />
+  </g>
+
+  <g id="left" transform="translate(0,16)">
+    <rect
+       height="32"
+       style="fill:url(#dark-kawaii-gradient);opacity:0.95;rx:3;ry:3"
+       class="ColorScheme-Background"
+       width="6"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:url(#neon-glow);opacity:0.3"
+       height="32"
+       width="2"
+       x="0"
+       y="0" />
+  </g>
+
+  <g id="right" transform="translate(38,16)">
+    <rect
+       height="32"
+       style="fill:url(#dark-kawaii-gradient);opacity:0.95;rx:3;ry:3"
+       class="ColorScheme-Background"
+       width="6"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:url(#neon-shadow);opacity:0.3"
+       height="32"
+       width="2"
+       x="4"
+       y="0" />
+  </g>
+
+  <g id="center" transform="translate(6,16)">
+    <rect
+       height="32"
+       style="fill:url(#dark-kawaii-gradient);opacity:0.98"
+       class="ColorScheme-Background"
+       width="32"
+       x="0"
+       y="0" />
+    <!-- Add cyber glow overlay -->
+    <rect
+       height="32"
+       style="fill:url(#cyber-glow);opacity:0.3"
+       width="32"
+       x="0"
+       y="0" />
+  </g>
+
+  <!-- Rounded corners with enhanced anime glow -->
+  <g id="topleft" transform="translate(0,10)">
+    <path
+       d="M 0,6 H 6 V 0 C 2.5,0 0,2.5 0,6 Z"
+       style="fill:url(#dark-kawaii-gradient);opacity:0.95"
+       class="ColorScheme-Background" />
+    <circle cx="3" cy="3" r="2" style="fill:url(#neon-glow);opacity:0.5" />
+  </g>
+
+  <g id="topright" transform="translate(38,10)">
+    <path
+       d="M 0,0 V 6 H 6 C 6,2.5 3.5,0 0,0 Z"
+       style="fill:url(#dark-kawaii-gradient);opacity:0.95"
+       class="ColorScheme-Background" />
+    <circle cx="3" cy="3" r="2" style="fill:url(#neon-glow);opacity:0.5" />
+  </g>
+
+  <g id="bottomleft" transform="translate(0,48)">
+    <path
+       d="M 6,6 V 0 H 0 c 0,3.5 2.5,6 6,6 z"
+       style="fill:url(#dark-kawaii-gradient);opacity:0.95"
+       class="ColorScheme-Background" />
+    <circle cx="3" cy="3" r="2" style="fill:url(#neon-glow);opacity:0.5" />
+  </g>
+
+  <g id="bottomright" transform="translate(38,48)">
+    <path
+       d="M 0,6 V 0 H 6 C 6,3.5 3.5,6 0,6 Z"
+       style="fill:url(#dark-kawaii-gradient);opacity:0.95"
+       class="ColorScheme-Background" />
+    <circle cx="3" cy="3" r="2" style="fill:url(#neon-glow);opacity:0.5" />
+  </g>
+
+  <!-- Enhanced margin hints with neon effects -->
+  <rect
+     id="hint-top-margin"
+     height="4"
+     style="fill:#66ffff;rx:2;ry:2;filter:url(#neon-filter)"
+     width="4"
+     x="20"
+     y="10" />
+  <rect
+     id="hint-bottom-margin"
+     height="4"
+     style="fill:#66ffff;rx:2;ry:2;filter:url(#neon-filter)"
+     width="4"
+     x="20"
+     y="50" />
+  <rect
+     id="hint-right-margin"
+     height="4"
+     style="fill:#66ffff;rx:2;ry:2;filter:url(#neon-filter)"
+     width="4"
+     x="40"
+     y="30" />
+  <rect
+     id="hint-left-margin"
+     height="4"
+     style="fill:#66ffff;rx:2;ry:2;filter:url(#neon-filter)"
+     width="4"
+     x="0"
+     y="30" />
+
+  <!-- Inset hints (minimal but glowing) -->
+  <rect id="hint-top-inset" height="1" style="fill:#80ff80" width="4" x="20" y="10" />
+  <rect id="hint-bottom-inset" height="1" style="fill:#80ff80" width="4" x="20" y="53" />
+  <rect id="hint-left-inset" height="4" style="fill:#80ff80" width="1" x="0" y="30" />
+  <rect id="hint-right-inset" height="4" style="fill:#80ff80" width="1" x="43" y="30" />
+
+  <!-- Masks (for compatibility) -->
+  <rect id="mask-top" height="6" width="32" x="119" y="10" style="fill:url(#dark-kawaii-gradient)" />
+  <rect id="mask-center" height="32" width="32" x="119" y="16" style="fill:url(#dark-kawaii-gradient)" />
+  <rect id="mask-bottom" height="6" width="32" x="119" y="48" style="fill:url(#dark-kawaii-gradient)" />
+  <rect id="mask-left" height="32" width="6" x="113" y="16" style="fill:url(#dark-kawaii-gradient)" />
+  <rect id="mask-right" height="32" width="6" x="151" y="16" style="fill:url(#dark-kawaii-gradient)" />
+
+  <!-- Corner masks -->
+  <path id="mask-topleft" d="m 113,16 h 6 v -6 c 0,3.5 -2.5,6 -6,6 z" style="fill:url(#dark-kawaii-gradient)" />
+  <path id="mask-topright" d="m 151,10 h 6 v 6 c -3.5,0 -6,-2.5 -6,-6 z" style="fill:url(#dark-kawaii-gradient)" />
+  <path id="mask-bottomright" d="m 151,48 h 6 v 6 c -3.5,0 -6,-2.5 -6,-6 z" style="fill:url(#dark-kawaii-gradient)" />
+  <path id="mask-bottomleft" d="m 113,48 h 6 v 6 c 0,-3.5 -2.5,-6 -6,-6 z" style="fill:url(#dark-kawaii-gradient)" />
+
+  <!-- Main visual panel with enhanced neon outline -->
+  <path
+     style="fill:none;stroke:url(#neon-shadow);stroke-width:2;stroke-linecap:round;rx:8;ry:8;filter:url(#neon-filter)"
+     d="m 63,10 h 32 c 4,0 6,2 6,6 v 32 c 0,4 -2,6 -6,6 H 63 c -4,0 -6,-2 -6,-6 V 16 c 0,-4 2,-6 6,-6 z" />
+</svg>

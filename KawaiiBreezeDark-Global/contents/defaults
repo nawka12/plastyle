@@ -1,0 +1,31 @@
+# KawaiiBreezeDark Global Theme Configuration
+# This file defines what gets applied when the Global Theme is selected
+
+[kdeglobals][KDE]
+ColorScheme=KawaiiBreezeDark
+
+[kdeglobals][General]
+ColorScheme=KawaiiBreezeDark
+
+[plasmarc][Theme]
+name=KawaiiBreezeDark
+
+[ksplashrc][KSplash]
+Engine=KSplashQML
+Theme=com.kayfahaarukku.kawaiibreezedarkg
+
+[kscreenlockerrc][Greeter]
+Theme=com.kayfahaarukku.kawaiibreezedarkg
+
+# Window decoration - keep Breeze for compatibility
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze
+
+# Cursor theme
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
+
+# Minimal KWin effects - only enable what's essential
+[kwinrc][Plugins]
+blurEnabled=true 

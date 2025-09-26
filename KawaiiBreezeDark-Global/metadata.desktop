@@ -1,0 +1,25 @@
+[Desktop Entry]
+Name=KawaiiBreezeDark Global
+Name[en_US]=KawaiiBreezeDark Global
+Comment=A comprehensive dark anime-inspired global theme with neon effects and cyberpunk aesthetics
+Comment[en_US]=A comprehensive dark anime-inspired global theme with neon effects and cyberpunk aesthetics
+
+X-KDE-PluginInfo-Author=nawka12
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=com.kayfahaarukku.kawaiibreezedarkg
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Plasma Look And Feel
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginKeyword=com.kayfahaarukku.kawaiibreezedarkg
+X-Plasma-MainScript=defaults
+
+[ContainmentActions][RightButton;NoModifier]
+_add panel=true
+_context menu=true
+_run command=true
+_wallpaper=true 

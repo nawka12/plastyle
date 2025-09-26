@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "nawka12"
+            }
+        ],
+        "BugReportUrl": "",
+        "Category": "Plasma Theme",
+        "Description": "A dark anime-inspired theme with neon effects and cyberpunk aesthetics",
+        "EnabledByDefault": true,
+        "Id": "KawaiiBreezeDark",
+        "License": "GPL",
+        "Name": "KawaiiBreezeDark",
+        "ServiceTypes": [
+            "Plasma/Theme"
+        ],
+        "Version": "1.0",
+        "Website": ""
+    }
+}
